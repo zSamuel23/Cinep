@@ -1,0 +1,93 @@
+
+body { 
+    font-family: Arial, sans-serif; 
+ display: block;
+    color: aliceblue;
+    background: #191936; 
+    justify-content: center; 
+    align-items: center; 
+    height: 100vh; 
+}
+
+header {
+    margin-top: 0;
+    background-color: rgb(0, 0, 255);
+    color: white;
+}
+
+nav {
+    z-index: 10;
+    width: 100%;
+    background-color: #041730;
+    color: white;
+}
+#logo {
+    width: 100px;
+    height: 100px;
+}
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    font-family: sans-serif;
+    font-size: 25px;
+    font-weight: 750;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-family: sans-serif;
+}
+main {
+      display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding-top: 75px; /* espacio para el header */
+}
+#auth-container { 
+    background: #13136b; 
+    padding: 3rem; 
+    border-radius: 8px; 
+
+    width: 300px; 
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+
+input { 
+    width: 100%; 
+    padding: 0.5rem; 
+    margin-bottom: 1rem; 
+    border-radius: 4px; 
+    border: 1px solid #ccc; 
+}
+
+
+button { 
+    width: 100%; 
+    padding: 1rem; 
+    background: #191936; 
+    color: white; 
+    border: none; 
+    border-radius: 4px; 
+    cursor: pointer; 
+    font-size: 18px;
+}
+
+button:hover { 
+    background: #111bb1; 
+}
+
+
+.toggle { 
+    text-align: center; 
+    margin-top: 1rem; 
+    color: #ffffff; 
+    cursor: pointer; 
+    font-size: 0.9rem; 
+}
